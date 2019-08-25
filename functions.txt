@@ -1,0 +1,18 @@
+class student:
+	div=10
+	def  _ _ init _ _(self ,name):
+		self.sname=name
+	def display(self):
+		print('name is :',self.sname)
+r=Student('sumit')
+print(r.sname)
+
+types of variables
+1 instance = required (object/self)		#self= instance variable, instance variable are subject to object only.
+2 class = 					#div = class variable,values are same in all class
+3 static 
+
+types of methods
+instance = def display(self)
+class = def f1(cls)
+static = def f2( )
